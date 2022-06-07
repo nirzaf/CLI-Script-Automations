@@ -7,8 +7,16 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            var currency = new Currency(34,2234);
 
+            Bang bang = new()
+            {
+                Name = "Fazrin",
+                Description = "Description",
+                Amount = 6,
+                Cost = 15
+            };
+            Console.WriteLine(bang.Helper());
+            var currency = new Currency(34,2234);
             Console.WriteLine(currency.ToString());
             Console.WriteLine(currency);
 
@@ -19,6 +27,20 @@ namespace CLI_Script_Automations
                 .WithArguments( new[] {"--help" })
                 .ExecuteBufferedAsync();
             Console.WriteLine(cliResponse.StandardOutput);
+
+        }
+    }
+
+    public record Bang
+    {
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public long Amount { get; set; }
+        public long Cost { get; set; }
+
+        public long Helper()
+        {
+            return Amount * Cost;
         }
     }
 
