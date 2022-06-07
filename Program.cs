@@ -12,6 +12,9 @@ namespace CLI_Script_Automations
             Console.WriteLine(currency.ToString());
             Console.WriteLine(currency);
 
+            var resp = Math.Log(64, 2);
+            Console.WriteLine(resp);
+
             var cliResponse = await Cli.Wrap("dotnet")
                 .WithArguments( new[] {"--help" })
                 .ExecuteBufferedAsync();
