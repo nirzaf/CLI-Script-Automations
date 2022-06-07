@@ -1,0 +1,17 @@
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CLI-Script-Automations.exe
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CLI-Script-Automations.deps.json
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CLI-Script-Automations.runtimeconfig.json
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CLI-Script-Automations.dll
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CLI-Script-Automations.pdb
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\bin\Debug\net6.0\CliWrap.dll
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.csproj.AssemblyReference.cache
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.AssemblyInfoInputs.cache
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.AssemblyInfo.cs
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.csproj.CoreCompileInputs.cache
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.csproj.CopyComplete
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.dll
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\refint\CLI-Script-Automations.dll
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.pdb
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\CLI-Script-Automations.genruntimeconfig.cache
+C:\Users\Fazrin\source\repos\CLI-Script-Automations\obj\Debug\net6.0\ref\CLI-Script-Automations.dll
