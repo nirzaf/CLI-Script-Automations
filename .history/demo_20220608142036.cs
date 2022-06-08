@@ -5,4 +5,3 @@ var B = 10;
 var C = A;
 A = B;
 B = C;
-
