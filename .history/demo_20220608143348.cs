@@ -3,8 +3,8 @@
 
 public int Palindrome(string input)
 {
-    string reversed;
-    for(int i=0; )
+    string reversed
+    for()
     if(input == revered)
 
 

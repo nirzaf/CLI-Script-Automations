@@ -3,9 +3,8 @@
 
 public int Palindrome(string input)
 {
-    string reversed;
-    for(int i=0; )
+    string revered = input.Reverse();
+   
     if(input == revered)
-
 
 }
