@@ -30,10 +30,8 @@ namespace CLI_Script_Automations
 
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";
-            v2.VehicleName = "Corolla";
-            v2.VehicleType = "Van";
-            v2.VehicleColor = "Black";
-            v2.VehiclePrice = 250000;
+            v2.VehicleName = "Toyota";
+            
 
             // ChildBang cb = new()
             // {
