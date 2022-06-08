@@ -1,5 +1,6 @@
 
 
+
 static bool Palindrome(string input1)
 {
     string input = input1.ToLower();
