@@ -19,21 +19,14 @@ namespace CLI_Script_Automations
             List<Vehicle> vehicles = new List<Vehicle>();
             vehicles.Add(v1);
 
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle.VehicleNumber);
-                Console.WriteLine(vehicle.VehicleName);
-                Console.WriteLine(vehicle.VehicleType);
-                Console.WriteLine(vehicle.VehicleColor);
-                Console.WriteLine(vehicle.VehiclePrice);
-            }
+            foreach
 
-            // ChildBang cb = new()
-            // {
-            //     Cost = 33,
-            //     Amount = 12
-            // };
-            // Console.WriteLine(cb.Helper());
+            ChildBang cb = new()
+            {
+                Cost = 33,
+                Amount = 12
+            };
+            Console.WriteLine(cb.Helper());
 
             //Bang bang = new()
             //{
@@ -43,18 +36,18 @@ namespace CLI_Script_Automations
             //    Cost = 15
             //};
             //Console.WriteLine(bang.Helper());
-            // var currency = new Currency(34,34);
-            // Console.WriteLine(currency.ToString());
-            // Console.WriteLine(currency);
+            var currency = new Currency(34,34);
+            Console.WriteLine(currency.ToString());
+            Console.WriteLine(currency);
 
-            // var resp = Math.Log(64, 2);
-            // Console.WriteLine(resp);
+            var resp = Math.Log(64, 2);
+            Console.WriteLine(resp);
 
-            // var cliResponse = await Cli.Wrap("dotnet")
-            //     .WithArguments( new[] {"--help" })
-            //     .ExecuteBufferedAsync();
-            // Console.WriteLine(cliResponse.StandardOutput);
-            // Console.WriteLine(cliResponse.StandardError);
+            var cliResponse = await Cli.Wrap("dotnet")
+                .WithArguments( new[] {"--help" })
+                .ExecuteBufferedAsync();
+            Console.WriteLine(cliResponse.StandardOutput);
+            Console.WriteLine(cliResponse.StandardError);
 
         }
     }

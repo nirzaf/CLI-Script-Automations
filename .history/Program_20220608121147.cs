@@ -28,12 +28,12 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            // ChildBang cb = new()
-            // {
-            //     Cost = 33,
-            //     Amount = 12
-            // };
-            // Console.WriteLine(cb.Helper());
+            ChildBang cb = new()
+            {
+                Cost = 33,
+                Amount = 12
+            };
+            Console.WriteLine(cb.Helper());
 
             //Bang bang = new()
             //{
