@@ -7,6 +7,8 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
+            ChildBang cb = new ChildBang();
+
             Bang bang = new()
             {
                 Name = "Fazrin",
