@@ -50,8 +50,6 @@ namespace CLI_Script_Automations
             }
 
             var v = vehicles.Where(x => x.VehicleNumber == "KA-01-AA-1235").FirstOrDefault();
-
-            
             // ChildBang cb = new()
             // {
             //     Cost = 33,

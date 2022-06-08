@@ -28,7 +28,7 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("\n\n");
 
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";
@@ -49,9 +49,6 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            var v = vehicles.Where(x => x.VehicleNumber == "KA-01-AA-1235").FirstOrDefault();
-
-            
             // ChildBang cb = new()
             // {
             //     Cost = 33,
