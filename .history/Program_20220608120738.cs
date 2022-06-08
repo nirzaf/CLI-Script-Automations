@@ -52,8 +52,11 @@ namespace CLI_Script_Automations
 
     public struct Vehicle
     {
-        public long VehicleNum
-
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public long Amount { get; set; }
+        public long Cost { get; set; }
+        
         public override string ToString()
         {
             return $"{Name} {Description} {Amount} {Cost}";

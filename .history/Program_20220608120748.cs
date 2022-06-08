@@ -52,7 +52,7 @@ namespace CLI_Script_Automations
 
     public struct Vehicle
     {
-        public long VehicleNum
+        public 
 
         public override string ToString()
         {
