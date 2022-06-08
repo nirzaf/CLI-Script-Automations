@@ -8,14 +8,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
 
-            var v1 = new Vehicle();
-            v1.VehicleNumber = "KA-01-AA-1234";
-            v1.VehicleType = "Car";
-            v1.VehicleColor = "Red";
-            v1.VehicleModel = "Toyota";
-            v1.VehicleBrand = "Toyota";
-
-
+            var v1 = new Vehicle
             ChildBang cb = new()
             {
                 Cost = 33,
