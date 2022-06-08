@@ -7,6 +7,7 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
+
             Bang bang = new()
             {
                 Name = "Fazrin",
@@ -37,15 +38,11 @@ namespace CLI_Script_Automations
         public string? Description { get; set; }
         public long Amount { get; set; }
         public long Cost { get; set; }
+
         public long Helper()
         {
             return Amount * Cost;
         }
-    }
-
-    public record ChildBang : Bang
-    {
-        public long Dollars { get; init; }
     }
 
     struct Currency

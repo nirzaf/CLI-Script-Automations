@@ -43,7 +43,7 @@ namespace CLI_Script_Automations
         }
     }
 
-    public record ChildBang : Bang
+    public record ChildBang
     {
         public long Dollars { get; init; }
     }

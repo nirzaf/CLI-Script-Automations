@@ -43,10 +43,7 @@ namespace CLI_Script_Automations
         }
     }
 
-    public record ChildBang : Bang
-    {
-        public long Dollars { get; init; }
-    }
+    public record 
 
     struct Currency
     {
