@@ -8,6 +8,9 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
             ChildBang cb = new ChildBang();
+            cb.Cost = 33;
+            cb.Amount = 12;
+            Console.WriteLine(cb.Helper());
 
             Bang bang = new()
             {
