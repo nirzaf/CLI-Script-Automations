@@ -11,15 +11,12 @@ namespace CLI_Script_Automations
 
             var v1 = new Vehicle();
             v1.VehicleNumber = "KA-01-AA-1234";
-            v1.VehicleName = "Toyota";
             v1.VehicleType = "Car";
             v1.VehicleColor = "Red";
-            v1.VehiclePrice = 100000;
-            
-            List<Vehicle> vehicles = new List<Vehicle>();
-            vehicles.Add(v1);
+            v1.VehicleModel = "Toyota";
+            v1.VehicleBrand = "Toyota";
+            v1.VehicleYear = "2020";
 
-            for
 
             ChildBang cb = new()
             {

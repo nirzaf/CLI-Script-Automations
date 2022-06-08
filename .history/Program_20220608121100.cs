@@ -15,11 +15,8 @@ namespace CLI_Script_Automations
             v1.VehicleType = "Car";
             v1.VehicleColor = "Red";
             v1.VehiclePrice = 100000;
-            
-            List<Vehicle> vehicles = new List<Vehicle>();
-            vehicles.Add(v1);
 
-            for
+
 
             ChildBang cb = new()
             {

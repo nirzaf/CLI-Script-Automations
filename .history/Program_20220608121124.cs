@@ -17,9 +17,6 @@ namespace CLI_Script_Automations
             v1.VehiclePrice = 100000;
             
             List<Vehicle> vehicles = new List<Vehicle>();
-            vehicles.Add(v1);
-
-            for
 
             ChildBang cb = new()
             {
