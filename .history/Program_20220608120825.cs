@@ -7,8 +7,6 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-
-            var v1 = new 
             ChildBang cb = new()
             {
                 Cost = 33,
@@ -62,7 +60,7 @@ namespace CLI_Script_Automations
 
         public override string ToString()
         {
-            return $"{VehicleNumber} {VehicleName} {VehicleType} {VehicleColor} {VehiclePrice}";
+            return $"{Name} {Description} {Amount} {Cost}";
         }
     }
 
