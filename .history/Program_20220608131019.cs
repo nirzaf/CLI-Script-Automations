@@ -70,7 +70,7 @@ namespace CLI_Script_Automations
             //     .ExecuteBufferedAsync();
             // Console.WriteLine(cliResponse.StandardOutput);
             // Console.WriteLine(cliResponse.StandardError);
-            Console.ReadLine();
+            Console
 
         }
     }
