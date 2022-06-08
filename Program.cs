@@ -21,7 +21,7 @@ namespace CLI_Script_Automations
             //    Amount = 6,
             //    Cost = 15
             //};
-            Console.WriteLine(bang.Helper());
+            //Console.WriteLine(bang.Helper());
             var currency = new Currency(34,34);
             Console.WriteLine(currency.ToString());
             Console.WriteLine(currency);
