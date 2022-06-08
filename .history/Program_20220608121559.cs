@@ -28,7 +28,7 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            Console.WriteLine("\n");
+            Console.WriteLine()
 
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";

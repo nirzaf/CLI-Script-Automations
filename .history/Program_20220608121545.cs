@@ -28,8 +28,6 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            Console.WriteLine("\n");
-
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";
             v2.VehicleName = "Corolla";
@@ -40,7 +38,7 @@ namespace CLI_Script_Automations
             vehicles.Add(v2);
 
 
-            foreach (var vehicle in vehicles)
+                        foreach (var vehicle in vehicles)
             {
                 Console.WriteLine(vehicle.VehicleNumber);
                 Console.WriteLine(vehicle.VehicleName);

@@ -28,8 +28,6 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            Console.WriteLine("\n");
-
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";
             v2.VehicleName = "Corolla";

@@ -28,8 +28,6 @@ namespace CLI_Script_Automations
                 Console.WriteLine(vehicle.VehiclePrice);
             }
 
-            Console.WriteLine("\n");
-
             var v2 = new Vehicle();
             v2.VehicleNumber = "KA-01-AA-1235";
             v2.VehicleName = "Corolla";
@@ -37,17 +35,7 @@ namespace CLI_Script_Automations
             v2.VehicleColor = "Black";
             v2.VehiclePrice = 250000;
 
-            vehicles.Add(v2);
-
-
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle.VehicleNumber);
-                Console.WriteLine(vehicle.VehicleName);
-                Console.WriteLine(vehicle.VehicleType);
-                Console.WriteLine(vehicle.VehicleColor);
-                Console.WriteLine(vehicle.VehiclePrice);
-            }
+            
 
             // ChildBang cb = new()
             // {
