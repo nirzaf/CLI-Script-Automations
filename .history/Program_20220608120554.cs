@@ -50,7 +50,7 @@ namespace CLI_Script_Automations
         }
     }
 
-    public st
+    
 
     public record ChildBang : Bang
     {
