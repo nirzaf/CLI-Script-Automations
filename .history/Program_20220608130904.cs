@@ -97,7 +97,7 @@ namespace CLI_Script_Automations
 
         public override string ToString()
         {
-            return $"Vehicle Number: {VehicleNumber}, Vehicle Name: {VehicleName} ";
+            return $"{VehicleNumber} {VehicleName} {VehicleType} {VehicleColor} {VehiclePrice}";
         }
     }
 
