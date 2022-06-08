@@ -14,13 +14,13 @@ namespace CLI_Script_Automations
             };
             Console.WriteLine(cb.Helper());
 
-            Bang bang = new()
-            {
-                Name = "Fazrin",
-                Description = "Description",
-                Amount = 6,
-                Cost = 15
-            };
+            //Bang bang = new()
+            //{
+            //    Name = "Fazrin",
+            //    Description = "Description",
+            //    Amount = 6,
+            //    Cost = 15
+            //};
             Console.WriteLine(bang.Helper());
             var currency = new Currency(34,34);
             Console.WriteLine(currency.ToString());
@@ -38,13 +38,13 @@ namespace CLI_Script_Automations
         }
     }
 
-    public record Bang
+    public abstract record Bang
     {
         public string? Name { get; set; }
         public string? Description { get; set; }
         public long Amount { get; set; }
         public long Cost { get; set; }
-        public long Helper()
+        public virtual long Helper()
         {
             return Amount * Cost;
         }
@@ -53,6 +53,11 @@ namespace CLI_Script_Automations
     public record ChildBang : Bang
     {
         public long Dollars { get; init; }
+
+        public override long Helper()
+        {
+            return Amount * Amount * Cost * Cost;
+        }
     }
 
     struct Currency
