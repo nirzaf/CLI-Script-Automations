@@ -60,8 +60,7 @@ namespace CLI_Script_Automations
         {
             return $"{Name} {Description} {Amount} {Cost}";
         }
-    }
-    
+        
 
     public record ChildBang : Bang
     {
