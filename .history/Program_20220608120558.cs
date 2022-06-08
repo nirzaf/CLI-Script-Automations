@@ -50,7 +50,20 @@ namespace CLI_Script_Automations
         }
     }
 
-    public st
+    public struct Vehicle
+    {
+        [Key]
+        public string VehicleNumber { get; set; }
+        public string? VehicleName { get; set; }
+        public string? VehicleType { get; set; }
+        public string? VehicleColor { get; set; }
+        public long VehiclePrice { get; set; }
+
+        public override string ToString()
+        {
+            return $"{VehicleNumber} {VehicleName} {VehicleType} {VehicleColor} {VehiclePrice}";
+        }
+    }
 
     public record ChildBang : Bang
     {
