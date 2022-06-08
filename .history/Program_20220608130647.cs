@@ -40,14 +40,14 @@ namespace CLI_Script_Automations
             vehicles.Add(v2);
 
 
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle.VehicleNumber);
-                Console.WriteLine(vehicle.VehicleName);
-                Console.WriteLine(vehicle.VehicleType);
-                Console.WriteLine(vehicle.VehicleColor);
-                Console.WriteLine(vehicle.VehiclePrice);
-            }
+            // foreach (var vehicle in vehicles)
+            // {
+            //     Console.WriteLine(vehicle.VehicleNumber);
+            //     Console.WriteLine(vehicle.VehicleName);
+            //     Console.WriteLine(vehicle.VehicleType);
+            //     Console.WriteLine(vehicle.VehicleColor);
+            //     Console.WriteLine(vehicle.VehiclePrice);
+            // }
 
             var v = vehicles.Where(x => x.VehicleNumber == "KA-01-AA-1235").FirstOrDefault();
 
