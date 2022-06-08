@@ -27,7 +27,7 @@ namespace CLI_Script_Automations
                 .WithArguments( new[] {"--help" })
                 .ExecuteBufferedAsync();
             Console.WriteLine(cliResponse.StandardOutput);
-            Console.WriteLine(cliResponse.StandardError);
+            
 
         }
     }
