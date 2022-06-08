@@ -19,14 +19,14 @@ namespace CLI_Script_Automations
             List<Vehicle> vehicles = new List<Vehicle>();
             vehicles.Add(v1);
 
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle.VehicleNumber);
-                Console.WriteLine(vehicle.VehicleName);
-                Console.WriteLine(vehicle.VehicleType);
-                Console.WriteLine(vehicle.VehicleColor);
-                Console.WriteLine(vehicle.VehiclePrice);
-            }
+            // foreach (var vehicle in vehicles)
+            // {
+            //     Console.WriteLine(vehicle.VehicleNumber);
+            //     Console.WriteLine(vehicle.VehicleName);
+            //     Console.WriteLine(vehicle.VehicleType);
+            //     Console.WriteLine(vehicle.VehicleColor);
+            //     Console.WriteLine(vehicle.VehiclePrice);
+            // }
 
             Console.WriteLine("---------------------------------------------");
 
