@@ -6,22 +6,25 @@ namespace CLI_Script_Automations
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        private static Task Main(string[] args)
+        {
+            return Main(args, Console);
+        }
+
+        static async Task Main(string[] args, Console console)
         {
             var result = await Cli.Wrap("dotnet")
                         .WithArguments("--version")
                         .ExecuteBufferedAsync();
 
             var version = result.StandardOutput.Trim();
-            Console.WriteLine($"dotnet version: {version}");
+            console.WriteLine($"dotnet version: {version}");
                 
             var pal = GetPal();
             Console.WriteLine(pal);
             Console.ReadLine();
             static bool GetPal() => Demo.IsPalindrome("ACCA");
         }
-
-        static Console 
 
         static bool IsWordPalindrome(string word)
         {

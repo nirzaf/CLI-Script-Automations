@@ -21,7 +21,7 @@ namespace CLI_Script_Automations
             static bool GetPal() => Demo.IsPalindrome("ACCA");
         }
 
-        static Console 
+        static SocketsHttpPlaintextStreamFilterContext()
 
         static bool IsWordPalindrome(string word)
         {
