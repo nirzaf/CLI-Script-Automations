@@ -6,7 +6,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
             PrintSum(1, 3);
-            Console.WriteLine(ReverseString("Hello World"));
+            Console.WriteLineReverseString("Hello World");
 
         }
     }
