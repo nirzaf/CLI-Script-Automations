@@ -12,12 +12,7 @@ namespace CLI_Script_Automations
 
             // Let's see a simple C# example to swap two numbers without using third variable.
             int a = 10;
-            int b = 20;
-            Console.WriteLine("Before swap: a = {0}, b = {1}", a, b);
-            a = a + b;
-            b = a - b;
-            a = a - b;
-            Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
+            
         }
     }
 }
