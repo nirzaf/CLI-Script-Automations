@@ -8,7 +8,7 @@ namespace CLI_Script_Automations
             //PrintSum(1, 3);
             Console.WriteLine(ReverseString("FAZRIN"));
             Console.WriteLine(SortString("FAZRIN"));
-            Console.WriteLine(IsAnagram("FAZRIN", "NIRZAF"));
+
         }
     }
 }

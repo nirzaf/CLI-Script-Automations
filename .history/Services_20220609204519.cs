@@ -29,20 +29,5 @@ public static class Services
         return new string(charArray);
     }
 
-    //Check two strings are anagram or not.
-    public static bool IsAnagram(string str1, string str2)
-    {
-        if (str1.Length != str2.Length)
-        {
-            return false;
-        }
-        else
-        {
-            char[] charArray1 = str1.ToCharArray();
-            char[] charArray2 = str2.ToCharArray();
-            Array.Sort(charArray1);
-            Array.Sort(charArray2);
-            return new string(charArray1) == new string(charArray2);
-        }
-    } 
+    //Check two strings are anagram 
 }
