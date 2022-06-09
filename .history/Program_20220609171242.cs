@@ -10,7 +10,7 @@ namespace CLI_Script_Automations
         {
             var res = await Cli.Wrap("dotnet")
                 .WithArguments("run")
-                .
+                .WithArguments("--project", "./CLI_Script_Automations/CLI_Script_Automations.csproj")
         
             var pal = GetPal();
             Console.WriteLine(pal);

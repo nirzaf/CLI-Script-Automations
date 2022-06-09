@@ -8,9 +8,7 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            var res = await Cli.Wrap("dotnet")
-                .WithArguments("run")
-                .
+            var res = await Cli
         
             var pal = GetPal();
             Console.WriteLine(pal);
