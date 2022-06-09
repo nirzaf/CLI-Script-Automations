@@ -13,8 +13,13 @@ namespace CLI_Script_Automations
             Console.ReadLine();
             static bool GetPal() => Demo.IsPalindrome("ACCA");
 
-            var output = IsWordPalindrome("TENETI");
-            Console.WriteLine(output);
+            var output = await Cli.Wrap("dotnet")
+                .WithArguments("run")
+                .WithArguments("--project", "CLI_Script_Automations")
+                .WithArguments("--")
+                .WithArguments("--input", "ACCA")
+                .WithStandardOutput(new BufferedStandardOutput())
+                .ExecuteAsync();
         }
 
         static bool IsWordPalindrome(string word)

@@ -14,7 +14,7 @@ namespace CLI_Script_Automations
             static bool GetPal() => Demo.IsPalindrome("ACCA");
 
             var output = IsWordPalindrome("TENETI");
-            Console.WriteLine(output);
+            
         }
 
         static bool IsWordPalindrome(string word)
