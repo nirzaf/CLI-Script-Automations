@@ -1,13 +1,11 @@
-﻿using static Services;
+﻿using static Ser
 namespace CLI_Script_Automations
 {
     internal class Program
     {
         static async Task Main(string[] args)
         {
-            PrintSum(1, 3);
-            ReverseString("Hello World");
-
+            Services.PrintSum(1, 3);
         }
     }
 }

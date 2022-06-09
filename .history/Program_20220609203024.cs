@@ -6,8 +6,8 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
             PrintSum(1, 3);
-            ReverseString("Hello World");
 
+            
         }
     }
 }

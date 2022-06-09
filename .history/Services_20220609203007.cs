@@ -11,13 +11,4 @@ public static class Services
     }
 
     // Create a method that takes a string and returns the string in reversed order.
-    public static string ReverseString(string str)
-    {
-        string reversed = "";
-        for (int i = str.Length - 1; i >= 0; i--)
-        {
-            reversed += str[i];
-        }
-        return reversed;
-    }
 }
