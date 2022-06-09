@@ -5,7 +5,7 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            int[] numbers = {2,5,3,21,1,4,6,7,8,9,10};
+            int[] numbers = {2, 5, 3,21,1};
 
             var stack = Services.CreateStack(numbers);
             foreach (var i in stack)
