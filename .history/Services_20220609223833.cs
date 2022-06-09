@@ -97,5 +97,5 @@ public static class Services
         return previousSmallerElement;
     }
 
-    // Create a 
+    // Find the previous smaller element for each array element
 }
