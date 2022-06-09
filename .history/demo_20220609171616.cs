@@ -1,5 +1,6 @@
-public static class Demo
+public static class NewBaseType
 {
+
     //check if string is a palindrome or not and return boolean value
     public static bool IsPalindrome(string str)
     {
@@ -12,4 +13,8 @@ public static class Demo
         else
             return str[0] == str[str.Length - 1] && IsPalindrome(str.Substring(1, str.Length - 2));
     }
+}
+
+public static class Demo : NewBaseType
+{
 }
