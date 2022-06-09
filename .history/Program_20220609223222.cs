@@ -8,10 +8,8 @@ namespace CLI_Script_Automations
             int[] numbers = {2, 5, 3, 7, 8, 1, 9, 4, 6};
 
             var num = Services.PreviousSmallerElement(numbers);
-            foreach(var i in num)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine();
+
 
             //PrintSum(1, 3);
             Console.WriteLine(ReverseString("FAZRIN"));
