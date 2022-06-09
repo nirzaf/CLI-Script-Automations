@@ -5,8 +5,8 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            //PrintSum(1, 3);
-            Console.WriteLine(ReverseString("FAZRIN"));
+            PrintSum(1, 3);
+            Console.WriteLine(ReverseString("F A Z R I N"));
 
         }
     }
