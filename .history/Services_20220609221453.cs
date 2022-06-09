@@ -53,6 +53,7 @@ public static class Services
         a = a + b;
         b = a - b;
         a = a - b;
-        Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
+
+        
     }
 }

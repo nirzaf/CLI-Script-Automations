@@ -11,7 +11,7 @@ namespace CLI_Script_Automations
             Console.WriteLine(IsAnagram("FAZRIN", "NIRZAF"));
 
             // Let's see a simple C# example to swap two numbers without using third variable.
-            
+
         }
     }
 }
