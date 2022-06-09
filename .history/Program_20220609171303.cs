@@ -10,7 +10,7 @@ namespace CLI_Script_Automations
         {
             var res = await Cli.Wrap("dotnet")
                 .WithArguments("run")
-                
+                .Credentials
         
             var pal = GetPal();
             Console.WriteLine(pal);
