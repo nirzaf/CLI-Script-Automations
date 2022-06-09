@@ -7,7 +7,7 @@ namespace CLI_Script_Automations
         {
             //PrintSum(1, 3);
             Console.WriteLine(ReverseString("FAZRIN"));
-            Console.WSortString("FAZRIN");
+            SortString("FAZRIN");
 
         }
     }
