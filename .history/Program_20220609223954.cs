@@ -7,9 +7,7 @@ namespace CLI_Script_Automations
         {
             int[] numbers = {2, 5, 3, 7, 8, 1, 9};
 
-            var stack = Services.CreateStack(numbers);
-            Console.WriteLine(stack.ToString());
-
+           
 
             //PrintSum(1, 3);
             Console.WriteLine(ReverseString("FAZRIN"));

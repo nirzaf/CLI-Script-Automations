@@ -98,13 +98,5 @@ public static class Services
     }
 
     // Create a method to take int array as input and return stack of integers.
-    public static Stack<int> CreateStack(int[] numbers)
-    {
-        Stack<int> stack = new Stack<int>();
-        foreach (int i in numbers)
-        {
-            stack.Push(i);
-        }
-        return stack;
-    } 
+     
 }
