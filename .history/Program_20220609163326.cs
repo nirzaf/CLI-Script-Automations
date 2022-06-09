@@ -12,11 +12,9 @@ namespace CLI_Script_Automations
             Console.WriteLine(pal);
             Console.ReadLine();
             static bool GetPal() => Demo.IsPalindrome("ACCA");
-
-            var out
         }
 
-        static bool IsWordPalindrome(string word)
+             static bool IsWordPalindrome(string word)
         {
             if (word == null)
                 throw new ArgumentNullException(nameof(word));
