@@ -18,6 +18,7 @@ namespace CLI_Script_Automations
 
             //Check if a number is prime or not.
             Console.WriteLine(IsPrime(15));
+            Console.WriteLine(IsPrime(15));
         }
     }
 }
