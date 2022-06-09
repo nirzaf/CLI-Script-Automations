@@ -24,7 +24,7 @@ namespace CLI_Script_Automations
 
             return word.Length < 2 || IsPalindrome(0, word.Length - 1);
 
-            bool IsPalindrome(int lo, int hi)
+            bool IsPalidrome(int lo, int hi)
             {
                 if (lo >= hi)
                     return true;
