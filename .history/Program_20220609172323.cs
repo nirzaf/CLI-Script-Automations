@@ -21,7 +21,7 @@ namespace CLI_Script_Automations
             static bool GetPal() => Demo.IsPalindrome("ACCA");
         }
 
-        static void Print(string input)
+        static Console Print(string input)
         {
             return Console.WriteLine(input);
         }
