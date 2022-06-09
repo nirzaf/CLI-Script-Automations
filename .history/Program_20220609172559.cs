@@ -16,7 +16,7 @@ namespace CLI_Script_Automations
             Console.WriteLine($"dotnet version: {version}");
                 
             var pal = GetPal();
-            Print(pal.ToString());
+            Print(pal.);
             Console.ReadLine();
             static bool GetPal() => Demo.IsPalindrome("ACCA");
         }
