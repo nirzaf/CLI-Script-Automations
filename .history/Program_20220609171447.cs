@@ -8,13 +8,11 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            var result = await Cli.Wrap("dotnet")
-                        .WithArguments("--version")
-                        .ExecuteBufferedAsync();
-
-            var version = result.StandardOutput.Trim();
-            Console.WriteLine($"dotnet version: {version}");
+            var result = await Cli.Wrap("path/to/exe")
+    .WithArguments("--foo bar")
+    .ExecuteBufferedAsync();
                 
+        
             var pal = GetPal();
             Console.WriteLine(pal);
             Console.ReadLine();

@@ -13,8 +13,9 @@ namespace CLI_Script_Automations
                         .ExecuteBufferedAsync();
 
             var version = result.StandardOutput.Trim();
-            Console.WriteLine($"dotnet version: {version}");
+            
                 
+        
             var pal = GetPal();
             Console.WriteLine(pal);
             Console.ReadLine();
