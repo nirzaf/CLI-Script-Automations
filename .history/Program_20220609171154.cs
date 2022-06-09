@@ -8,8 +8,8 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            var res = 
-        
+            var cli = new CliWrap.Buffered.Cli("dotnet");
+            var result = await cli.ExecuteAsync(new[] { "run" });
             var pal = GetPal();
             Console.WriteLine(pal);
             Console.ReadLine();

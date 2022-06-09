@@ -8,8 +8,7 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            var res = 
-        
+            
             var pal = GetPal();
             Console.WriteLine(pal);
             Console.ReadLine();
