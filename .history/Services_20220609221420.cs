@@ -46,11 +46,5 @@ public static class Services
         }
     } 
 
-    // Swap two numbers without using third variable.
-    public static void Swap(ref int a, ref int b)
-    {
-        a = a + b;
-        b = a - b;
-        a = a - b;
-    }
+    
 }
