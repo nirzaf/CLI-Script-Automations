@@ -78,22 +78,19 @@ public static class Services
     In other words, for each element A[i] in the array A, 
     find an element A[j] such that j < i and A[j] < A[i] and value of j should be as maximum as possible. 
     If the previous smaller element doesn't in the array for any element, consider it -1. */
-    public static int[] PreviousSmallerElement(int[] numbers)
+    public static int[] PreviousSmallerElement(int[] arr)
     {
-        int[] previousSmallerElement = new int[numbers.Length];
-        for (int i = 0; i < numbers.Length; i++)
+        int[] prevSmaller = new int[arr.Length];
+        prevSmaller[0] = -1;
+        for (int i = 1; i < arr.Length; i++)
         {
-            int previousSmaller = -1;
-            for (int j = 0; j < i; j++)
+            int j = i - 1;
+            while (j >= 0 && arr[j] >= arr[i])
             {
-                if (numbers[j] < numbers[i])
-                {
-                    previousSmaller = numbers[j];
-                    break;
-                }
+                j--;
             }
-            previousSmallerElement[i] = previousSmaller;
+            prevSmaller[i] = j;
         }
-        return previousSmallerElement;
+        return prevSmaller;
     }
 }
