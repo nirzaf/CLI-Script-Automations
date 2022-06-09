@@ -75,7 +75,7 @@ public static class Services
     }
 
     //Find the previous smaller element for each array element
-    //In other words, for each element A[i] in the array A, find an element A[j] such that j < i and A[j] < A[i] and value of j should be as maximum as possible. If the previous smaller element doesn't in the array for any element, consider it -1.
+    In other words, for each element A[i] in the array A, find an element A[j] such that j < i and A[j] < A[i] and value of j should be as maximum as possible. If the previous smaller element doesn't in the array for any element, consider it -1.
     public static int[] PreviousSmallerElement(int[] arr)
     {
         int[] prevSmaller = new int[arr.Length];
