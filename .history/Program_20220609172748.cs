@@ -19,7 +19,7 @@ namespace CLI_Script_Automations
             Print(pal.ToString());
             Console.ReadLine();
         }
-        static void Read() => Console.ReadLine();
+        static void Read()
         static bool GetPal() => Demo.IsPalindrome("ACCA");
         static void Print(string? input) => Console.WriteLine(input);
 
