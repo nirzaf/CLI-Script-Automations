@@ -11,7 +11,6 @@ namespace CLI_Script_Automations
                 Console.WriteLine(i);
             }
             var stack = Services.CreateStack(numbers);
-            
             foreach (var i in stack)
             {
                 Console.WriteLine(i);

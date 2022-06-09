@@ -6,12 +6,11 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
             int[] numbers = {7,8,9,10};
-            foreach (var i in numbers)
+            foreach (var i in stack)
             {
                 Console.WriteLine(i);
             }
             var stack = Services.CreateStack(numbers);
-            
             foreach (var i in stack)
             {
                 Console.WriteLine(i);
