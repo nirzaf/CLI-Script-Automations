@@ -8,7 +8,8 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-           var pal = Demo.IsPalindrome("ACCA");
+          
+           var pal = Demo.IsPalindrome("Tenet");
             Console.WriteLine(pal);
             Console.ReadLine();
         }
