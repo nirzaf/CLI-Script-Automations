@@ -75,19 +75,4 @@ public static class Services
     }
 
     //Find the previous smaller element for each array element
-    public static int[] PreviousSmallerElement(int[] arr)
-    {
-        int[] prevSmaller = new int[arr.Length];
-        prevSmaller[0] = -1;
-        for (int i = 1; i < arr.Length; i++)
-        {
-            int j = i - 1;
-            while (j >= 0 && arr[j] >= arr[i])
-            {
-                j--;
-            }
-            prevSmaller[i] = j;
-        }
-        return prevSmaller;
-    }
 }

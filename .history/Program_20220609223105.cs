@@ -5,9 +5,9 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            
-
             //PrintSum(1, 3);
+
+            
             Console.WriteLine(ReverseString("FAZRIN"));
             Console.WriteLine(SortString("FAZRIN"));
             Console.WriteLine(IsAnagram("FAZRIN", "NIRZAF"));
