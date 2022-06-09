@@ -10,7 +10,7 @@ namespace CLI_Script_Automations
         {
           
            var pal = Demo.IsPalindrome("Tenet");
-            Console.Writ
+            
         }
     }
 
