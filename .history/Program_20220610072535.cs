@@ -7,7 +7,7 @@ namespace CLI_Script_Automations
         {
 
             var q = new Queue<string>();
-            q.Enqueue("Faz");
+            q.Enqueue("1");
 
             int[] numbers = {7,8,9,10};
             foreach (var i in numbers)

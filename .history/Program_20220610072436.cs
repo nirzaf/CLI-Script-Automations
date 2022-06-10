@@ -6,8 +6,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
 
-            var q = new Queue<string>();
-            q.Enqueue("Faz");
+            
 
             int[] numbers = {7,8,9,10};
             foreach (var i in numbers)
