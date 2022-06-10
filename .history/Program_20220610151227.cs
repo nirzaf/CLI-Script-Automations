@@ -6,9 +6,8 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
 
-            int[] arr =  { 10, 20, 20, 10, 10, 30, 50, 10, 20 };
-            var output = Algorithms.SockMerchant(9,arr);  
-            Console.WriteLine(output);
+
+            var output = Algorithms.SockMerchant(9, { 10, 20, 20, 10, 10, 30, 50, 10, 20]);  
             // var rotatedArray = Algorithms.LeftRotation(new int[] { 1, 2, 3, 4, 5 }, 2);
 
             // foreach (var item in rotatedArray)
