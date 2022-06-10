@@ -40,14 +40,10 @@ public class NotesStore
         {
             if (state != "completed" || state != "active" || state != "others")
             {
-                throw new Exception($"Invalid state { state }");
+                throw new Exception($"Invalid state { state } ");
             }
 
-            var filteredNotes = notes.Where(x => x.Value == state).ToDictionary(x => x.Key, x => x.Value);
-            if(filteredNotes is not null)
-            {
-                return filteredNotes.Keys.ToList();
-            }
+            var filteredNote
             else
             {
                 return new List<string>();

@@ -43,11 +43,7 @@ public class NotesStore
                 throw new Exception($"Invalid state { state }");
             }
 
-            var filteredNotes = notes.Where(x => x.Value == state).ToDictionary(x => x.Key, x => x.Value);
-            if(filteredNotes is not null)
-            {
-                return filteredNotes.Keys.ToList();
-            }
+            var filteredNotes = notes.Where(x => x.Value == state).ToDictionary;
             else
             {
                 return new List<string>();

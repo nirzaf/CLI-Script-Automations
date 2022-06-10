@@ -52,6 +52,10 @@ public class NotesStore
             {
                 return new List<string>();
             }
+            else
+            {
+                return new List<string>();
+            }
         }
 
 }

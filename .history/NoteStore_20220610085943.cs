@@ -44,10 +44,7 @@ public class NotesStore
             }
 
             var filteredNotes = notes.Where(x => x.Value == state).ToDictionary(x => x.Key, x => x.Value);
-            if(filteredNotes is not null)
-            {
-                return filteredNotes.Keys.ToList();
-            }
+            
             else
             {
                 return new List<string>();
