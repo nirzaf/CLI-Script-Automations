@@ -47,7 +47,7 @@ public static class Algorithms
                if(ar1[i] != 101 && ar[i] == ar1[j])
                {
                    np++;
-                   ar1[i]=101;
+                                    ar1[i]=101;
                    ar1[j]=101;
                }
            }
