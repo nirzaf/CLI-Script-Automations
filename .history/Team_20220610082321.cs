@@ -17,19 +17,7 @@ public class team
     }
 
     //member function to RemovePlayer(count) to the team. it takes integer count as parameter. and removes count number of players from the team.
-    //if decreasing makes noOfPlayers negative, then this method should return false; else decrease noOfPlayers by count and return true.
-
-    public bool RemovePlayer(int count)
-    {
-        if (noOfPlayers - count < 0)
-        {
-            return false;
-        }
-        else
-        {
-            noOfPlayers -= count;
-            return true;
-        }
+    //if decreasing makes noOfPlayers negative, then this method should return false; else 
     
 
 }
