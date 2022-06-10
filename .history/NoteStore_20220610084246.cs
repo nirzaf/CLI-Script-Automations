@@ -38,8 +38,15 @@ public class NotesStore
         }
     }
 
-    // 2. GetNotes(state); returns a list of note names with the given state
-    // (string) added so far. The names are returned in the order the
-    // corresponding notes were added. In addition to that:
-    
+    public List<string> GetNotes(string state)
+    {
+        if (state != "completed" && state != "active" && state != "others")
+        {
+            throw new Exception("Invalid state (" + state + ")");
+        }
+        else
+        {
+            return new List<string>();
+        }
+    }
 }
