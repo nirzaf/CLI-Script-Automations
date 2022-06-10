@@ -25,6 +25,8 @@ public class NotesStore
         // message 'Invalid state (state)'.
     public void AddNote(string state, string name)
     {
+
+
         if (string.IsNullOrEmpty(name))
         {
             throw new Exception("Name cannot be empty");

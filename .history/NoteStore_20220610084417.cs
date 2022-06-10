@@ -16,6 +16,9 @@
 public class NotesStore
 {
     public NotesStore(){}
+    public void AddNote(string state, string name)
+    {
+
         // 1. AddNote(state, name) adds a note with the given name (string) and
         // state (string) to the collection. In addition to that:
         // • If the passed name is empty, then it throws an Exception with
@@ -23,8 +26,6 @@ public class NotesStore
         // • If the passed name is non-empty but the given state is not a
         // valid state for a note, then it throws an Exception with the
         // message 'Invalid state (state)'.
-    public void AddNote(string state, string name)
-    {
         if (string.IsNullOrEmpty(name))
         {
             throw new Exception("Name cannot be empty");
