@@ -25,12 +25,8 @@
         }
     }
 
-    public class Subteam : Team 
-    {    
-        public Team(string teanName, int noOfPlayer)
-        {
-            
-        }
+    public class Subteam : Team {
+        
         public Subteam(string teanName, int noOfPlayer)
         {
             base.Team(string teanName, int noOfPlayer);

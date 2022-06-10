@@ -27,7 +27,7 @@
 
     public class Subteam : Team 
     {    
-        public Team(string teanName, int noOfPlayer)
+        public Team(Parameters)
         {
             
         }
