@@ -4,7 +4,6 @@
 // 'others'. All other states are invalid.
 public class NotesStore
 {
-    private Dictionary<string, string> notes;
     public NotesStore(){}
         // 1. AddNote(state, name) adds a note with the given name (string) and
         // state (string) to the collection. In addition to that:
@@ -15,6 +14,7 @@ public class NotesStore
         // message 'Invalid state (state)'.
     public void AddNote(string state, string name)
     {
+        List<string, string> 
         if (string.IsNullOrEmpty(name))
         {
             throw new Exception("Name cannot be empty");
@@ -25,7 +25,7 @@ public class NotesStore
         }
         else
         {
-            notes.Add(name, state);
+            
         }
     }
 

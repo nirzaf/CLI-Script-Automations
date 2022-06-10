@@ -25,7 +25,7 @@ public class NotesStore
         }
         else
         {
-            notes.Add(name, state);
+            notes
         }
     }
 
