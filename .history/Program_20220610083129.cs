@@ -5,8 +5,7 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-            if (!typeof(Subteam).IsSubclassOf(typeof(Team))) 
-            {
+            if (!typeof(Subteam).IsSubclassOf(typeof(Team))) {
                 throw new Exception("Subteam class should inherit from Team class");
             }
             
