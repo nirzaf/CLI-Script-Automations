@@ -11,7 +11,7 @@ namespace CLI_Script_Automations
             q.Enqueue("Moahmed");
             q.Enqueue("Farook");
 
-            q.Dequeue();
+            q
             foreach (var item in q)
             {
                 Console.WriteLine(item);
