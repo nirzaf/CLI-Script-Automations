@@ -5,13 +5,6 @@ public static class Algorithms
    // Given an array a of n integers and a number, d, perform d left rotations on the array. 
    // Return the updated array to be printed as a single line of space-separated integers.
 
-    public static int[] LeftRotation(int[] a, int d)
-    {
-        int[] result = new int[a.Length];
-        for (int i = 0; i < a.Length; i++)
-        {
-            result[(i + d) % a.Length] = a[i];
-        }
-        return result;
-    }
+   
+   
 }
