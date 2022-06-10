@@ -35,7 +35,7 @@ public class NotesStore
         {
             throw new Exception("Name cannot be empty");
         }
-        else if (state != "completed" || state != "active" || state != "others")
+        else if (state != "completed" || state != "active" && state != "others")
         {
             throw new Exception("Invalid state (" + state + ")");
         }
