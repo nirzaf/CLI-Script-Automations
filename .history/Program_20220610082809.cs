@@ -3,13 +3,13 @@ namespace CLI_Script_Automations
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main(string[] args, Console console)
         {
                if (!typeof(Subteam).IsSubclassOf(typeof(Team))) {
                 throw new Exception("Subteam class should inherit from Team class");
             }
             
-            String str = Console.ReadLine();
+            String str = console.ReadLine();
             String[] strArr = str.Split();
             string initialName = strArr[0];
             int count = Convert.ToInt32(strArr[1]);
