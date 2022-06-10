@@ -2,6 +2,7 @@
 // The class will manage a collection of notes, with each note having a
 // state and a name. Valid states for notes are 'completed', 'active', and
 // 'others'. All other states are invalid.
+
 public class NotesStore
 {
     public NotesStore(){}
@@ -20,7 +21,7 @@ public class NotesStore
         }
         else if (state != "completed" || state != "active" || state != "others")
         {
-            throw new Exception($"Invalid state {(" + }state + ")");
+            throw new Exception("Invalid state (" + state + ")");
         }
     }
 
