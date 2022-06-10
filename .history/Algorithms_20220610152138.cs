@@ -44,7 +44,7 @@ public static class Algorithms
        {
            for(int j=i+1;j<n;j++)
            {
-               if(ar1[i] != 101 && ar[i] == ar1[j])
+               if(ar1[i]!= ==ar1[j])
                {
                    np++;
                    ar1[j]=0;
