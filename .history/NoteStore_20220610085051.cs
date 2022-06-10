@@ -20,11 +20,7 @@ public class NotesStore
         }
         else if (state != "completed" || state != "active" || state != "others")
         {
-            throw new Exception($"Invalid state {state}");
-        }
-        else
-        {
-            
+            throw new Exception($"Invalid state {state + ")");
         }
     }
 

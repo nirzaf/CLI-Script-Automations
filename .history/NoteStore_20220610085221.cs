@@ -22,10 +22,6 @@ public class NotesStore
         {
             throw new Exception($"Invalid state {state}");
         }
-        else
-        {
-            
-        }
     }
 
         // 2. GetNotes(state); returns a list of note names with the given state
