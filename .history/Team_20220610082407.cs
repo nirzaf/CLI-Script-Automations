@@ -31,6 +31,5 @@ public class team
             return true;
         }
     }
-}
 
-//create a class Subteam inherits
+}
