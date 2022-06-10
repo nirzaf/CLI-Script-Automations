@@ -16,8 +16,9 @@ public class team
         noOfPlayers += count;
     }
 
-    //member function to RemovePlayer(count) to the team. it takes integer count as parameter. and removes count number of players from the team.
-    //if 
-    
-
+    //member function to RemovePlayer(count) to the team.
+    public void RemovePlayer(int count)
+    {
+        noOfPlayers -= count;
+    }
 }
