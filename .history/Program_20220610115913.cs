@@ -52,9 +52,9 @@ namespace CLI_Script_Automations
             //Console.WriteLine(IsAnagram("FAZRIN", "NIRZAF"));
 
             //Let's see a simple C# example to swap two numbers without using third variable.
-            // int a = 100;
-            // int b = 200;
-            // Services.Swap(ref a, ref b);
+            int a = 100;
+            int b = 200;
+            Services.Swap(ref a, ref b);
             //Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
             //Check if a number is prime or not.
             //Console.WriteLine(IsPrime(15));
