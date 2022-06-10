@@ -39,7 +39,6 @@ public static class Algorithms
     public static int SockMerchant(int n, int[] ar)
     {
        int[] ar1 = ar.ToArray();
-       int i, np=0;
-       for()
+       iny
     }
 }

@@ -40,6 +40,6 @@ public static class Algorithms
     {
        int[] ar1 = ar.ToArray();
        int i, np=0;
-       for()
+       
     }
 }
