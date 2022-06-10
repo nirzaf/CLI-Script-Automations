@@ -10,14 +10,7 @@ namespace CLI_Script_Automations
             //     throw new Exception("Subteam class should inherit from Team class");
             // }
             
-            Team t1 = new Team("Team1", 10);
-            t1.AddPlayer(5);
-            t1.RemovePlayer(3);
-            Console.WriteLine(t1.noOfPlayers);
-
-            Subteam t2 = new Subteam("Team2", 10);
-            t2.ChangeTeamName("Team3"); 
-            Console.WriteLine(t2.teamName);
+            
 
             // var q = new Queue<string>();
             // q.Enqueue("Fazrin");

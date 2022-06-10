@@ -10,14 +10,33 @@ namespace CLI_Script_Automations
             //     throw new Exception("Subteam class should inherit from Team class");
             // }
             
-            Team t1 = new Team("Team1", 10);
-            t1.AddPlayer(5);
-            t1.RemovePlayer(3);
-            Console.WriteLine(t1.noOfPlayers);
-
-            Subteam t2 = new Subteam("Team2", 10);
-            t2.ChangeTeamName("Team3"); 
-            Console.WriteLine(t2.teamName);
+            String str = Console.ReadLine();
+            String[] strArr = str.Split();
+            string initialName = strArr[0];
+            int count = Convert.ToInt32(strArr[1]);
+            Subteam teamObj = new Subteam(initialName, count);
+            Console.WriteLine("Team " + teamObj.teamName + " created");
+            
+            str = Console.ReadLine();
+            count = Convert.ToInt32(str);
+            Console.WriteLine("Current number of players in team " + teamObj.teamName + " is " + teamObj.noOfPlayers);
+            teamObj.AddPlayer(count);
+            Console.WriteLine("New number of players in team " + teamObj.teamName + " is " + teamObj.noOfPlayers);
+            
+            
+            str = Console.ReadLine();
+            count = Convert.ToInt32(str);
+            Console.WriteLine("Current number of players in team " + teamObj.teamName + " is " + teamObj.noOfPlayers);
+            var res = teamObj.RemovePlayer(count);
+            if (res) {
+                Console.WriteLine("New number of players in team " + teamObj.teamName + " is " + teamObj.noOfPlayers);
+            } else {
+                Console.WriteLine("Number of players in team " + teamObj.teamName + " remains same");
+            }
+            
+            str = Console.ReadLine();
+            teamObj.ChangeTeamName(str);
+            Console.WriteLine("Team name of team " + initialName + " changed to " + teamObj.teamName);
 
             // var q = new Queue<string>();
             // q.Enqueue("Fazrin");

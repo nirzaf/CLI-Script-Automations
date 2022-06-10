@@ -16,8 +16,7 @@ namespace CLI_Script_Automations
             Console.WriteLine(t1.noOfPlayers);
 
             Subteam t2 = new Subteam("Team2", 10);
-            t2.ChangeTeamName("Team3"); 
-            Console.WriteLine(t2.teamName);
+            t2.ChangeTeamName("Team3");
 
             // var q = new Queue<string>();
             // q.Enqueue("Fazrin");
