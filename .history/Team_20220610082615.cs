@@ -40,9 +40,5 @@ public class Subteam : team
     {
     }
 
-    //A member function ChangeTeamName(name) to change the team name.
-    public void ChangeTeamName(string name)
-    {
-        teamName = name;
-    }
+    //
 }
