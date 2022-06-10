@@ -27,29 +27,3 @@
 // The stubbed code also prints messages of all the thrown errors.
 
 public class NotesStore
-{
-    public NotesStore(){}
-    public void AddNote(string state, string name)
-    {
-        if (string.IsNullOrEmpty(name))
-        {
-            throw new Exception("Name cannot be empty");
-        }
-        else if (state != "completed" && state != "active" && state != "others")
-        {
-            throw new Exception("Invalid state (" + state + ")");
-        }
-    }
-
-    public List<string> GetNotes(string state)
-    {
-        if (state != "completed" && state != "active" && state != "others")
-        {
-            throw new Exception("Invalid state (" + state + ")");
-        }
-        else
-        {
-            return new List<string>();
-        }
-    }
-}

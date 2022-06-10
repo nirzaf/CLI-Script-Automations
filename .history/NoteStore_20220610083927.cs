@@ -31,7 +31,7 @@ public class NotesStore
     public NotesStore(){}
     public void AddNote(string state, string name)
     {
-        if (string.IsNullOrEmpty(name))
+        if (string.)
         {
             throw new Exception("Name cannot be empty");
         }

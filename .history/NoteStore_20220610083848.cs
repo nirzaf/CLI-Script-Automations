@@ -31,7 +31,7 @@ public class NotesStore
     public NotesStore(){}
     public void AddNote(string state, string name)
     {
-        if (string.IsNullOrEmpty(name))
+        if (name == "")
         {
             throw new Exception("Name cannot be empty");
         }
@@ -41,15 +41,5 @@ public class NotesStore
         }
     }
 
-    public List<string> GetNotes(string state)
-    {
-        if (state != "completed" && state != "active" && state != "others")
-        {
-            throw new Exception("Invalid state (" + state + ")");
-        }
-        else
-        {
-            return new List<string>();
-        }
-    }
+    
 }
