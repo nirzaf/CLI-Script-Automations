@@ -34,7 +34,7 @@ public class Team
 }
 
 //create a class Subteam inherits team class. constructor should take 2 parameters teamName and noOfPlayers. and calls base class constructor with 2 parameters.
-public class Subteam : Team
+public class Subteam : team
 {
     public Subteam(string teamName, int noOfPlayers) : base(teamName, noOfPlayers)
     {
