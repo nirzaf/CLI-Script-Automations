@@ -109,13 +109,4 @@ public static class Services
     } 
 
     // Create a method to take array of integers as input and return a queue of integers.
-    public static Queue<int> CreateQueue(int[] numbers)
-    {
-        var queue = new Queue<int>();
-        foreach (int i in numbers)
-        {
-            queue.Enqueue(i);
-        }
-        return queue;
-    }
 }
