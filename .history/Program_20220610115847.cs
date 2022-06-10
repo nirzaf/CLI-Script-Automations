@@ -10,7 +10,7 @@ namespace CLI_Script_Automations
 
             foreach (var item in rotatedArray)
             {
-                Console.Write(item,);
+                Console.Write(item);
             }
             
             // Team t1 = new Team("Team1", 10);

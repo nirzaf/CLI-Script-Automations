@@ -6,12 +6,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
             
-            var rotatedArray = Algorithms.LeftRotation(new int[] { 1, 2, 3, 4, 5 }, 2);
-
-            foreach (var item in rotatedArray)
-            {
-                Console.Write(item,);
-            }
+            var 
             
             // Team t1 = new Team("Team1", 10);
             // t1.AddPlayer(5);
