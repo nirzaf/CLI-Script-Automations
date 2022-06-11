@@ -10,8 +10,8 @@ namespace CLI_Script_Automations
             var output = Algorithms.SockMerchant(9,arr);  
             Console.WriteLine(output);
 
-            
 
+            
             // var rotatedArray = Algorithms.LeftRotation(new int[] { 1, 2, 3, 4, 5 }, 2);
 
             // foreach (var item in rotatedArray)
