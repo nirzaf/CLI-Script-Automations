@@ -11,7 +11,7 @@ namespace CLI_Script_Automations
             //Sum of array numbers 
             for(int i=0; i<arr.Length;i++)
             {
-               total = total + 
+               total = 
             }
 
 
