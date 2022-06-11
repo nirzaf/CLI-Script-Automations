@@ -9,7 +9,7 @@ namespace CLI_Script_Automations
             int[] arr =  { 1,2,3,4,5};
             int total = 0;
             //Sum of array numbers 
-            
+  
 
             Console.WriteLine(total);
 
