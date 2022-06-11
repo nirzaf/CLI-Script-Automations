@@ -12,7 +12,7 @@ namespace CLI_Script_Automations
             for(int i=0; i<arr.Length;i++)
             {
                total += total + arr[i];
-               total += arr[i];
+               total += total + arr[i];
             }
 
 
