@@ -15,8 +15,6 @@ namespace CLI_Script_Automations
                total += arr[i];
             }
 
-            Console.WriteLine(total);
-
 
             var output = Algorithms.SockMerchant(9,arr);  
             Console.WriteLine(output);
