@@ -5,17 +5,65 @@ namespace CLI_Script_Automations
     {
         static async Task Main(string[] args)
         {
-
-            int[] arr =  { 1,2,3,4,5};
-            int total = 0;
-            //Sum of array numbers 
-            for()
-
-            Console.WriteLine(total);
+          
+            int[] studentsMarks = { 65,75,85,56 };
+            int i = 2;
+            Console.WriteLine(studentsMarks[i]);
 
 
-            var output = Algorithms.SockMerchant(9,arr);  
-            Console.WriteLine(output);
+            Console.WriteLine("Enter Your Age : ");
+
+            //string myAge = Console.ReadLine();
+
+            //int age = Convert.ToInt32(Console.ReadLine());
+           
+
+            //if(age < 16 || age < 13 || age == 12)
+            //{ 
+            //    Console.WriteLine("Sorry you are a minor");
+            //}
+
+            //if(age > 18 && age > 16 && age ==20)
+            //{
+            //    Console.WriteLine("You are eligible for this course");
+            //    Console.WriteLine("Please Apply Next Year");
+            //    Console.WriteLine("You are an ideal candidate");
+            //}
+            //if(age > 18)
+            //{
+            //    Console.WriteLine("You are eligible for this course");
+            //}
+            //if(age > 16)
+            //{
+            //    Console.WriteLine("Please Apply Next Year");
+            //}
+            //if(age == 20)
+            //{
+            //    Console.WriteLine("You are an ideal candidate");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sorry you are not eligible");
+            //}
+
+            //int[] fazrin =  { 1,2,3,4,5,6 };
+
+            //Console.WriteLine(fazrin.Length);
+
+            //int total = 0;
+            ////Sum of array numbers 
+            //for(int i =0; i< fazrin.Length ;i++)
+            //{
+            //    Console.WriteLine(fazrin[i]);
+            //    //total = total + fazrin[i]; 
+            //    total += fazrin[i];
+            //}
+
+            //Console.WriteLine(total);
+
+
+            //var output = Algorithms.SockMerchant(9,fazrin);  
+            //Console.WriteLine(output);
 
 
 
