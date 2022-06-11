@@ -8,8 +8,7 @@ namespace CLI_Script_Automations
 
             int[] arr =  { 10, 20, 20, 10, 10, 30, 50, 10, 20 };
 
-            //Sum of array numbers 
-            for()
+            //Sum of array 
 
 
             var output = Algorithms.SockMerchant(9,arr);  
