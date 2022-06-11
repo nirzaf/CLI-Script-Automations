@@ -52,6 +52,7 @@ namespace CLI_Script_Automations
             {
                 total += fazrin[i];
             }
+
             Console.WriteLine(total);
 
 

@@ -47,11 +47,14 @@ namespace CLI_Script_Automations
             //}
 
             int[] fazrin =  { 1,2,3,4,5,6 };
+
             int total = 0;
+            //Sum of array numbers 
             for (int i = 0; i < fazrin.Length; i++)
             {
                 total += fazrin[i];
             }
+
             Console.WriteLine(total);
 
 
