@@ -9,6 +9,8 @@ namespace CLI_Script_Automations
             int[] studentsMarks = { 65,75,85,56 };
             int x = 2;
             Console.WriteLine(studentsMarks[x]);
+
+
             Console.WriteLine("Enter Your Age : ");
 
             //string myAge = Console.ReadLine();
