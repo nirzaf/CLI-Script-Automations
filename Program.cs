@@ -7,8 +7,8 @@ namespace CLI_Script_Automations
         {
           
             int[] studentsMarks = { 65,75,85,56 };
-            int i = 2;
-            Console.WriteLine(studentsMarks[i]);
+            int x = 2;
+            Console.WriteLine(studentsMarks[x]);
 
 
             Console.WriteLine("Enter Your Age : ");
@@ -16,7 +16,7 @@ namespace CLI_Script_Automations
             //string myAge = Console.ReadLine();
 
             //int age = Convert.ToInt32(Console.ReadLine());
-           
+
 
             //if(age < 16 || age < 13 || age == 12)
             //{ 
@@ -46,20 +46,18 @@ namespace CLI_Script_Automations
             //    Console.WriteLine("Sorry you are not eligible");
             //}
 
-            //int[] fazrin =  { 1,2,3,4,5,6 };
+            int[] fazrin =  { 1,2,3,4,5,6 };
 
-            //Console.WriteLine(fazrin.Length);
+            int total = 0;
+            //Sum of array numbers 
+            for (int i = 0; i < fazrin.Length; i++)
+            {
+                Console.WriteLine(fazrin[i]);
+                //total = total + fazrin[i]; 
+                total += fazrin[i];
+            }
 
-            //int total = 0;
-            ////Sum of array numbers 
-            //for(int i =0; i< fazrin.Length ;i++)
-            //{
-            //    Console.WriteLine(fazrin[i]);
-            //    //total = total + fazrin[i]; 
-            //    total += fazrin[i];
-            //}
-
-            //Console.WriteLine(total);
+            Console.WriteLine(total);
 
 
             //var output = Algorithms.SockMerchant(9,fazrin);  
@@ -74,7 +72,7 @@ namespace CLI_Script_Automations
             //     Console.Write(item);
             //     Console.Write(" ");
             // }
-            
+
             // Team t1 = new Team("Team1", 10);
             // t1.AddPlayer(5);
             // t1.RemovePlayer(3);
@@ -101,7 +99,7 @@ namespace CLI_Script_Automations
             //     Console.WriteLine(i);
             // }
             // var stack = Services.CreateStack(numbers);
-            
+
             // foreach (var i in stack)
             // {
             //     Console.WriteLine(i);
