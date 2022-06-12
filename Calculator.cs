@@ -19,10 +19,10 @@ namespace CLI_Script_Automations
           return num1-num2;   
         }
 
-        //public static string GetMyFullName(string FirstName, string LastName)
-        //{ 
-        //     return 0;  
-        //}
+        public static string GetMyFullName(string firstName, string lastName)
+        {
+            return "Welcome ! " + firstName + " " + lastName + "...";
+        }
 
     }
 }

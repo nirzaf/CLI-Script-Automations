@@ -7,6 +7,8 @@ namespace CLI_Script_Automations
         {
           
             Console.WriteLine(Calculator.Add(25,15));
+
+            Console.WriteLine(Calculator.Subtract(50,15));
             
             Console.ReadLine();
 
