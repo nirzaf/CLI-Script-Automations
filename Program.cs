@@ -8,8 +8,11 @@ namespace CLI_Script_Automations
           
             Console.WriteLine("Please enter your first name: ");
             string firstName = Console.ReadLine();
-            Console.WriteLine("Please enter your last name: ");
-            string lastName = Console.ReadLine();
+
+            Calculator.PrintMyName(firstName);
+
+            //Console.WriteLine("Please enter your last name: ");
+            //string lastName = Console.ReadLine();
 
             string fullName = "Welcome ! " + firstName + " " + lastName + "...";
 

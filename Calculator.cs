@@ -24,5 +24,10 @@ namespace CLI_Script_Automations
             return "Welcome ! " + firstName + " " + lastName + "...";
         }
 
+        public static void PrintMyName(string name)
+        { 
+            Console.WriteLine("Hi your name is :" +  name);    
+        }
+
     }
 }
