@@ -6,9 +6,9 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
-           
 
 
+          
             // int[] studentsMarks = { 65,75,85,56 };
             // int x = 2;
             // Console.WriteLine(studentsMarks[x]);
