@@ -6,11 +6,20 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
+            Console.WriteLine("Please enter your first name: ");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("Please enter your last name: ");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine(Calculator.GetMyFullName(firstName, lastName));
+                
             Console.WriteLine(Calculator.Add(25,15));
 
             Console.WriteLine(Calculator.Subtract(50,15));
             
             Console.ReadLine();
+
+
 
             // int[] studentsMarks = { 65,75,85,56 };
             // int x = 2;
