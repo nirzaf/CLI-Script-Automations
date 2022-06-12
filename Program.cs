@@ -6,10 +6,9 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
-           var sum = 5 + 10;
+            Console.WriteLine(Calculator.Add(25,15));
             
-            Console.WriteLine(sum);
-            
+            Console.ReadLine();
 
             // int[] studentsMarks = { 65,75,85,56 };
             // int x = 2;
