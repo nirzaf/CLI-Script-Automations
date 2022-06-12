@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CLI_Script_Automations
 {
-    internal class Vehicle
+    public class Vehicle
     {
+        public string VehicleNumber { get; set; }
+        public string Type { get; set; }
+        public string Color { get; set; }
+
+
+
     }
 }
