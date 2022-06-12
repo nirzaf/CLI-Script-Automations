@@ -14,11 +14,11 @@ namespace CLI_Script_Automations
             //Console.WriteLine("Please enter your last name: ");
             //string lastName = Console.ReadLine();
 
-            string fullName = "Welcome ! " + firstName + " " + lastName + "...";
+            //string fullName = "Welcome ! " + firstName + " " + lastName + "...";
 
-            Console.WriteLine(fullName);
+            //Console.WriteLine(fullName);
 
-            Console.WriteLine(Calculator.GetMyFullName(firstName, lastName));
+            //Console.WriteLine(Calculator.GetMyFullName(firstName, lastName));
                 
             Console.WriteLine(Calculator.Add(25,15));
 
