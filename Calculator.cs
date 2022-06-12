@@ -14,6 +14,11 @@ namespace CLI_Script_Automations
             return num1 + num2;
         }
 
+        public static double Subtract(double num1, double num2)
+        { 
+          return num1-num2;   
+        }
+
         //public static string GetMyFullName(string FirstName, string LastName)
         //{ 
         //     return 0;  
