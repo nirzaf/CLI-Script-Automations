@@ -12,6 +12,9 @@ namespace CLI_Script_Automations
         public string Type { get; set; }
         public string Color { get; set; }
 
+        public int StartingSpeed { get; set; }
+
+
 
 
     }
