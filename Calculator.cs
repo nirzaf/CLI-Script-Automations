@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CLI_Script_Automations
 {
-    internal class Calculator
+    public static class Calculator
     {
+
+
     }
 }

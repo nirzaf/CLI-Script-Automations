@@ -6,7 +6,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
-           
+           Calculator cal = new Calculator();
             
 
             // int[] studentsMarks = { 65,75,85,56 };
