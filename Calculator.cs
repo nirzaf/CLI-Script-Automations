@@ -9,9 +9,9 @@ namespace CLI_Script_Automations
     public static class Calculator
     {
 
-        public static double Add(double num1, double num2)
+        public static double Add(string num1, string num2)
         {
-            return num1+ num2;
+            return num1 + num2;
         }
 
     }
