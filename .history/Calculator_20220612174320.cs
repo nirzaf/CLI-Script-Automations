@@ -14,7 +14,13 @@ namespace CLI_Script_Automations
           return num1-num2;   
         }
 
-        //get the input from 
+        public static void MultiplicationTable(double input)
+        {
+            for(int i = 0; i < input; i++)
+            { 
+             }
+            
+        }
 
         public static string GetMyFullName(string firstName, string lastName)
         {

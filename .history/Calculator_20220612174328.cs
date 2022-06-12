@@ -14,7 +14,7 @@ namespace CLI_Script_Automations
           return num1-num2;   
         }
 
-        //get the input from 
+        //
 
         public static string GetMyFullName(string firstName, string lastName)
         {
