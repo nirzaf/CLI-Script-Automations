@@ -6,6 +6,11 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
+            Vehicle vehicle = new Vehicle();
+
+            vehicle.Accelerate("Start");
+            vehicle.Accelerate("Start");
+
             Console.WriteLine("Please enter your first name: ");
             string firstName = Console.ReadLine();
 

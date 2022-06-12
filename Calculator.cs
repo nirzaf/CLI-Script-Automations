@@ -16,7 +16,9 @@ namespace CLI_Script_Automations
 
         public static string GetMyFullName(string firstName, string lastName)
         {
-            return "Welcome ! " + firstName + " " + lastName + "...";
+            var fullName = "Welcome ! " + firstName + " " + lastName + "...";
+
+            return fullName;
         }
 
         public static void PrintMyName(string name)

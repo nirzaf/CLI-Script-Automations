@@ -17,11 +17,8 @@ namespace CLI_Script_Automations
         { 
             if(start == "Start")
             { 
-                Console.WriteLine(Speed + 5);   
+                Console.WriteLine(Speed += 5);   
             }
         }
-
-
-
     }
 }
