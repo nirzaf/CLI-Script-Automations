@@ -6,8 +6,7 @@ namespace CLI_Script_Automations
         static async Task Main(string[] args)
         {
           
-            Calculator.PrintMultiplicationTable(5);
-
+          Calculator.PrintMultiplicationTable(5);
             Vehicle vehicle = new Vehicle();
 
             vehicle.Accelerate("Start");
